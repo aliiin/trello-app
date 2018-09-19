@@ -14,6 +14,9 @@ The goal of the project is to implement something similar to the basic functiona
 - login/register
 
 
+DEMO:
+https://mytrelloapp29.herokuapp.com/
+
 Usage:
 # bower install
 
