@@ -12,7 +12,7 @@
             'ui.sortable'
         ])
         .config(configOptions)
-        .factory('errorsRequestInterceptor', function($q, $location) {
+        .factory('errorsRequestInterceptor', function($q) {
             return {
                 'responseError': function(rejection) {
                     if (rejection.data && rejection.data.error) {
